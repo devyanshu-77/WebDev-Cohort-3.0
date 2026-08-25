@@ -1,0 +1,14 @@
+{
+  "name": "lecture-codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
+}
