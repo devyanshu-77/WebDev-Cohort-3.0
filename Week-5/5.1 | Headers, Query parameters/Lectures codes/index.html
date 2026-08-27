@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.20.0/axios.min.js"></script>
+</head>
+
+<body>
+  <div id="posts">
+
+  </div>
+
+  <script>
+    async function fetchData() {
+      const data = await axios.get("https://jsonplaceholder.typicode.com/posts/1")
+      console.log(data)
+    }
+    fetchData()
+  </script>
+</body>
+
+</html>
