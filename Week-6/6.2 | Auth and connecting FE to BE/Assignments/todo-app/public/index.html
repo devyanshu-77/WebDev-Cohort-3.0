@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page Title</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.20.0/axios.js"></script>
+</head>
+
+<body>
+
+  <div id="todo-wrapper">
+    <div id="todo-wrapper-header" />
+    <h1>Your Todos </h1>
+    <button id="logout-btn">Logout </button>
+  </div>
+
+  <div id="todo-input-wrapper">
+    <input id="todo-input" type="text" placeholder="Enter a todo..." />
+    <button id="add-todo-btn" data-type="add">ADD TODO</button>
+  </div>
+
+  <div id="todo-display" />
+  <p id="todo-err-msg" style="color: red;"> </p>
+
+  </div>
+  </div>
+  </div>
+
+  <div id="auth-form-wrapper">
+    <h1 id="auth-heading">Signup</h1>
+    <form id="auth-form">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" placeholder="Enter username..." />
+      <label for="password">Password</label>
+      <input id="password" name="password" type="text" placeholder="Enter password..." />
+      <p id="err-msg"> </p>
+      <button id="auth-submit-btn" type="submit">Signup</button>
+      <p id="auth-change-msg">Already have an account? <span data-auth-type="signup" id="auth-type"
+          style="color: darkblue; cursor: pointer;">sign in</span></p>
+    </form>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
